@@ -25,7 +25,7 @@ python sample.py
 ```
 
 ## Image Autoencoder
-For part 2, I wanted to create an autoencoder that could emulate 'portrait mode' on unseen images. The effect of creating a blur was successful, but my the photos in my dataset were not similar enough to create a differentiation between foreground and background. A reasonable next step would be add a module to separate the distant parts of the image from the foreground, and only apply the blur to the distant sections. A different improvement would be to incorporate two autoencoders - one to create a depth map, and one to apply the portrait mode effect. 
+For part 2, I wanted to create an autoencoder that could emulate 'portrait mode' on unseen images. The effect of creating a blur was successful, but my the photos in my dataset were not similar enough to create a differentiation between foreground and background. A reasonable next step would be add a module to separate the distant parts of the image from the foreground, and only apply the blur to the distant sections. A different improvement would be to incorporate two autoencoders - one to create a depth map, and one to apply the portrait mode effect. Overall, results on images of objects turned out better than those on images of people. 
 
 ![](ppt4.png)
 ![](ppt5.png)
