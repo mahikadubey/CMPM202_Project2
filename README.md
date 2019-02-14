@@ -31,3 +31,5 @@ To test
 python test.py dataset/test/[path_to_test_image]
 [Results will be placed in generated test_results folder]
 ```
+
+Note: Some images from dataset have not been uploaded for subject privacy 
