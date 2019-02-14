@@ -28,6 +28,6 @@ python train.py
 ```
 To test
 ```bash
-python test.py dataset/test/[rest of path to test image]
+python test.py dataset/test/[path_to_test_image]
 [Results will be placed in generated test_results folder]
 ```
