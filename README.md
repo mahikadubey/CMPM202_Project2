@@ -4,7 +4,7 @@ Word RNN and Image Autoencoder
 ## Word RNN
 For part 1, I compiled my own personal diary entries from 2007 to 2009, and generated some results using a word-based RNN. The results were interesting, generating some sentences that made partial sense. Given the small dataset size, the paragraphs were not always comprehensible. 
 
-# Basic Usage
+### How to run
 Adapted from https://github.com/hunkim/word-rnn-tensorflow
 
 To train
@@ -17,4 +17,17 @@ To sample from a trained model
 python sample.py
 ```
 
-## Autoencoder
+## Image Autoencoder
+
+### How to run
+
+To train
+```bash
+python train.py
+[Replace appropriate data directories in utils.py]
+```
+To test
+```bash
+python test.py dataset/test/[rest of path to test image]
+[Results will be placed in generated test_results folder]
+```
