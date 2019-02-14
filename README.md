@@ -5,6 +5,9 @@ Word RNN and Image Autoencoder
 For part 1, I compiled my own personal diary entries from 2007 to 2009, and generated some results using a word-based RNN. The results were interesting, generating some sentences that made partial sense. Given the small dataset size, the paragraphs were not always comprehensible. 
 
 ![](ppt1.png)  
+  
+  
+Some Results:
 ![](ppt2.png)
 ![](ppt3.png)
 
